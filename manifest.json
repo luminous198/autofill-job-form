@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Your Extension Name",
+  "name": "Form Autofiller",
   "version": "1.0",
-  "description": "Your extension description.",
+  "description": "Autofills Forms using Local user data.",
   "permissions": [
     "activeTab",
     "storage"
