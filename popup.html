@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Fill Form</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div id="mainContainer">
+    <div id="totalRecords">Total Records: 0</div>
+    <button id="fillFormButton">Fill Form</button>
+    <div id="historyContainer">
+      <button id="viewHistoryButton">View History</button>
+      <button id="downloadHistoryButton">Download History</button>
+    </div>
+    <button id="downloadAllHistoryButton">Download All History</button>
+  </div>
+  <div id="historyView" style="display: none;">
+    <button id="backButton">Back</button>
+    <div id="historyContent"></div>
+    <div id="navigationContainer">
+      <button id="downloadEntryButton" title="Download this entry">Download</button>
+      <button id="prevButton">&lt; Prev</button>
+      <div id="currentRecord"></div>
+      <button id="nextButton">Next &gt;</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
